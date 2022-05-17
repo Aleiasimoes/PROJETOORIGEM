@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Projeto Origem</title>
+
+    <script src="JS/script1.js">    </script>
+    <style>
+    *{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body{ background-color: rgb(117, 117, 117);         
+    }
+
+    form{ 
+        background-color: aliceblue;
+        max-width: 500px;
+        width: 70%;
+        padding: 20px;
+      position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+
+    }
+
+    form h3{
+        text-align: center;
+        color: rgb(120, 117, 117);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+    }
+
+    form input[type=text],
+    form input[type=number]{
+        width: 100px;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        flex-direction:column;
+        margin: 10px 0;
+    }
+    button{
+        width: 100%;
+        height: 30px;
+        cursor: pointer;
+        background-color: rgb(88, 87, 87);
+        color: rgb(250, 245, 245);
+        border: 0;
+        border-radius: 20px;
+    }
+
+    
+    </style>
+</head>
+<body>
+    
+    <form>
+        <h3>Moto</h3>
+        <input type="text" name="chassi" placeholder="Nº de chassi:"></imput>
+        <input type="number" name="Bateria" placeholder="Bateria:"></imput>
+        <input type="text" name="fabrica" placeholder="Fabricação:"></imput>
+        <input type="text" name="Fornecedor" placeholder="Fornecedor:"></imput>
+
+        <button name="inserir" >Inserir Bateria</button>
+
+    </form>
+    
+    
+    
+</body>
+</html>
